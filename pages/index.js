@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
@@ -28,6 +29,9 @@ export default function Home() {
         sodales accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed lorem lectus, maximus non mi eget, dignissim lobortis mi.
       </p>
+      <Link href="/ninjas">
+        <a>See Ninja Listing</a>
+      </Link>
       <Footer />
     </div>
   );
