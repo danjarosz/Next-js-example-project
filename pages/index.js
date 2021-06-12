@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <h1 className={styles.title}>Homepage</h1>
       <p className={styles.text}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit
@@ -26,9 +26,17 @@ export default function Home() {
         sodales accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Sed lorem lectus, maximus non mi eget, dignissim lobortis mi.
       </p>
+      <p className={styles.text}>
+        Mauris placerat tincidunt enim ut malesuada. In hac habitasse platea
+        dictumst. Curabitur ut lorem quis turpis consequat pretium sit amet et
+        erat. Integer cursus convallis iaculis. Nulla eget consequat sem. Nulla
+        tincidunt nulla lacus, nec posuere dui hendrerit ac. Duis cursus eros eu
+        sodales accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Sed lorem lectus, maximus non mi eget, dignissim lobortis mi.
+      </p>
       <Link href="/ninjas">
         <a className={styles.btn}>See Ninja Listing</a>
       </Link>
-    </main>
+    </div>
   );
 }
